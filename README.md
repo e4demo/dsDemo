@@ -1,7 +1,14 @@
-dsDemo
+DS Demo
 ======
 
 OSGi declarative service demo 
+
+consumers
+==
+
+1-st consumer used referenced declarative service via only xml
+
+2-nd consumer used Service API in Activator to get service rerefernce
 
 console result
 ==
