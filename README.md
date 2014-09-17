@@ -6,9 +6,9 @@ OSGi declarative service demo
 consumers
 ==
 
-1-st consumer used referenced declarative service via only xml
+1-st consumer used referenced declarative service via xml only
 
-2-nd consumer used Service API in Activator to get service rerefernce
+2-nd consumer used Service API in Activator to get service rereference
 
 console result
 ==
