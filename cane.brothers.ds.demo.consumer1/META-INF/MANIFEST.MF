@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Demo DS Consumer plug-in
+Bundle-SymbolicName: cane.brothers.ds.demo.consumer1
+Bundle-Version: 1.0.0
+Bundle-Vendor: cane
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Service-Component: OSGI-INF/component.xml
+Require-Bundle: cane.brothers.ds.demo.api

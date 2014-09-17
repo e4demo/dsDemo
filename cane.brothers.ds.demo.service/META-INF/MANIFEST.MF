@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: declarative services demo plug-in
+Bundle-SymbolicName: cane.brothers.ds.demo.service
+Bundle-Version: 1.0.0
+Bundle-Activator: cane.brothers.demo.service.DemoServiceActivator
+Bundle-Vendor: cane
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/component.xml
+Require-Bundle: cane.brothers.ds.demo.api,
+ org.eclipse.core.runtime;bundle-version="3.10.0"

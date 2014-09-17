@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="Demo service consumer">
+   <implementation class="cane.brothers.ds.demo.DemoConsumer1"/>
+   <reference bind="bindDemoService" cardinality="1..1" interface="cane.brothers.demo.service.IDemoService" name="IDemoService" policy="static" unbind="unbindDemoService"/>
+</scr:component>
